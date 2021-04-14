@@ -1,0 +1,406 @@
+/*  mediaQuerries */
+
+@media (max-width: 1230px) {
+
+.intro_wrapper {
+    padding-top: 160px;
+}
+
+.wrapper {
+    padding: 0 15px;
+}
+
+.wedo_foto {
+padding-right: 10px;
+}
+
+.wedo_acc {
+padding-left: 10px;
+}
+
+}
+
+
+
+
+
+@media (max-width: 990px) {
+.intro_subtitle {
+    padding-top: 230px;
+
+}
+
+.intro_title {
+    font-size: 55px;
+}
+
+
+.devices_wrapper {
+    width: 70%;
+}
+
+.quote_pic {
+    width: 20%;
+
+}
+
+.quote_wrapper {
+padding-left: 40%;
+}
+
+.works_wrapper {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25%;
+    grid-auto-flow:row;
+}
+
+.footer-soc{
+    justify-content: space-evenly;
+}
+
+.footer__form{
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.footer-input {
+width: 100%;
+
+}
+
+.footer-button {
+width: 100%;
+    }
+
+
+    .footer__title {
+        padding-top: 55px;
+        padding-bottom: 40px;
+    }
+
+
+
+.blogs__card{
+    height: 30%;
+    flex-direction: column;
+}
+
+.blogs-img__wrapper{
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.blogs-info {
+padding: 10px;
+}
+
+
+.insta-fotos__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 2px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 770px) {
+
+.toggle_menu{
+    display: block;
+}
+
+
+
+    .intro_wrapper {
+        padding-top: 220px;
+    }
+
+
+    .intro_subtitle {
+font-size: 30px;
+    }
+    
+    .intro_title {
+        font-size: 40px;
+
+    }
+
+    .header_wrapper {
+        padding: 10px;
+    }
+    .toggle_span {
+        display: block;}
+    
+    .more_button {
+        padding: 8px 10px;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+    .about_us {
+        margin-bottom: 30px;    
+    }
+
+
+ 
+
+    .card_full{
+        width: 90%;
+        margin: 0 auto 20px;
+    }
+
+
+
+    .card_img_wrapper {
+        height: 100%;
+    }
+
+    .card_text {
+        font-size: 30px;
+    }
+
+
+    .stat_card {
+        flex: 30% 1 0;
+        padding: 25px 0;;
+
+    }
+
+    .stat_num {
+        font-size: 50px;
+    }
+
+    .service_card {
+        flex: 50% 1 0;
+        margin-top: 0;
+    }
+
+    .service_cards_first {
+        border-bottom: 0;
+        }
+
+        .devices_wrapper {
+            width: 50%;
+        }
+
+        .iphone {
+            width: 50%;
+            top: 50%;
+        }
+
+        .wedo_foto {
+            display: none;
+            }
+            
+            .wedo_acc {
+            width: 100%;
+            padding: 20px;
+            }
+
+.quote_text {
+    font-size: 18px;
+}
+
+.quote_wrapper {
+    padding: 30px 50px 30px 40%;
+}
+
+.logos {
+    height: auto;
+}
+
+.logos_logos {
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+
+.logo_wrapper{
+    width: 33%;
+    text-align: center;
+    padding:20px 0;
+}
+
+.works{
+    margin-bottom: 20px;
+}
+
+.works_wrapper {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25%;
+    grid-auto-flow:row;
+}
+
+.quote2 {
+    margin-bottom: 30px;
+}
+
+.rev{
+    padding-top: 40px;
+
+}
+
+
+.rev_item {
+    width: 100%;    
+    padding: 0 50px 60px 200px;
+    font-size: 18px;
+    }
+
+.rev_pic {
+    top: 20px;
+    left: 20px;
+    max-width: none;
+    width: 20%;
+    }
+
+.blog-cards {
+    
+}
+
+.blog-card {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.blog-card-header-data{
+    left: -10px;
+    bottom: 20px;
+    width: 120px;
+    height: 170px;
+    background-color: #95e1d3;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.blog-card-header-data__month{
+    font-size: 35px;
+
+}
+
+.blog-card-header__img {
+    width: 100%;
+}
+
+.blog-info__title {
+    font-size: 32px;
+}
+
+.blog-info__info {
+    font-size: 28px;
+}
+
+.blog-stat {
+    font-size: 25px;
+}
+
+.footer_wrapper {
+
+    flex-wrap: wrap
+}
+
+.footer-soc {
+    width: 50%;
+    padding: 25px;
+}
+
+.footer-soc__desc {
+    font-size: 25px;
+}
+
+.footer-blogs{
+    width: 50%;
+    padding: 25px;
+}
+
+.footer-insta{
+    width: 100%;
+}
+
+.insta-fotos__wrapper {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2px;
+    padding: 25px;
+}
+
+.insta__foto{
+    width: 100%;
+}
+
+.view-more__link{
+    padding: 25px;
+    padding-top: 0;
+    text-align: center;
+}
+
+.footer__title{
+    text-align: center;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+
+
+    .intro_wrapper {
+        padding-top: 130px;
+    }
+
+
+
+    .stat_card {
+        flex: 100% 1 0;
+        padding: 25px 0;;
+
+    }
+
+    .stat_num {
+        font-size: 50px;
+    }
+
+    .service_card {
+        flex-basis: 100%;
+        padding: 0 30px 20px 90px;
+    }
+
+
+    .works_wrapper {
+        grid-template-columns: 100%;
+        grid-template-rows: 12.5%;
+        grid-auto-flow:row;
+    }
+
+    .works_img {
+        width: 100%;
+    } 
+
+
+
+}
